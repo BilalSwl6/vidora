@@ -1,0 +1,121 @@
+export const mockCategories = [
+  'All',
+  'Gaming',
+  'Music',
+  'Sports',
+  'News',
+  'Learning',
+  'Fashion',
+  'Travel',
+  'Food',
+  'Technology',
+  'Comedy',
+  'Vlogs'
+];
+
+export const mockVideos = [
+  {
+    id: '1',
+    title: 'Building a Modern React Native App with Expo',
+    thumbnail: 'https://picsum.photos/seed/video1/800/450',
+    channelName: 'TechWithTim',
+    channelAvatar: 'https://i.pravatar.cc/150?img=1',
+    views: 125000,
+    likes: 8500,
+    uploadedAt: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000),
+    duration: '12:34',
+    category: 'Technology',
+    description: 'Learn how to build a modern React Native app using Expo. We cover everything from setup to deployment, including best practices and common pitfalls to avoid.'
+  },
+  {
+    id: '2',
+    title: 'Top 10 Travel Destinations for 2024',
+    thumbnail: 'https://picsum.photos/seed/video2/800/450',
+    channelName: 'WanderlustAdventures',
+    channelAvatar: 'https://i.pravatar.cc/150?img=2',
+    views: 450000,
+    likes: 32000,
+    uploadedAt: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000),
+    duration: '18:45',
+    category: 'Travel',
+    description: 'Discover the most amazing travel destinations for 2024. From hidden gems to popular hotspots, we have got you covered with insider tips and stunning visuals.'
+  },
+  {
+    id: '3',
+    title: 'Easy 15-Minute Pasta Recipe',
+    thumbnail: 'https://picsum.photos/seed/video3/800/450',
+    channelName: 'QuickCooking',
+    channelAvatar: 'https://i.pravatar.cc/150?img=3',
+    views: 89000,
+    likes: 5200,
+    uploadedAt: new Date(Date.now() - 12 * 60 * 60 * 1000),
+    duration: '8:20',
+    category: 'Food',
+    description: 'Make this delicious pasta dish in just 15 minutes! Perfect for busy weeknights when you want something quick, easy, and absolutely delicious.'
+  },
+  {
+    id: '4',
+    title: 'Morning Yoga Flow for Beginners',
+    thumbnail: 'https://picsum.photos/seed/video4/800/450',
+    channelName: 'YogaWithSarah',
+    channelAvatar: 'https://i.pravatar.cc/150?img=4',
+    views: 67000,
+    likes: 4100,
+    uploadedAt: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000),
+    duration: '25:00',
+    category: 'Sports',
+    description: 'Start your day right with this gentle morning yoga flow. Perfect for beginners, this routine will help you build flexibility and strength.'
+  },
+  {
+    id: '5',
+    title: 'iPhone 15 Pro Max Review After 3 Months',
+    thumbnail: 'https://picsum.photos/seed/video5/800/450',
+    channelName: 'TechReviewer',
+    channelAvatar: 'https://i.pravatar.cc/150?img=5',
+    views: 980000,
+    likes: 45000,
+    uploadedAt: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000),
+    duration: '22:15',
+    category: 'Technology',
+    description: 'My honest review of the iPhone 15 Pro Max after using it for 3 months. Is it worth the upgrade? Let us find out together in this detailed review.'
+  },
+  {
+    id: '6',
+    title: 'Best Gaming Setup Tour 2024',
+    thumbnail: 'https://picsum.photos/seed/video6/800/450',
+    channelName: 'GamingCentral',
+    channelAvatar: 'https://i.pravatar.cc/150?img=6',
+    views: 234000,
+    likes: 18900,
+    uploadedAt: new Date(Date.now() - 4 * 60 * 60 * 1000),
+    duration: '15:30',
+    category: 'Gaming',
+    description: 'Check out my ultimate gaming setup for 2024! From the latest hardware to RGB lighting, this setup has everything a gamer could dream of.'
+  },
+  {
+    id: '7',
+    title: 'Learn Spanish in 30 Days - Day 1',
+    thumbnail: 'https://picsum.photos/seed/video7/800/450',
+    channelName: 'LanguageLearning',
+    channelAvatar: 'https://i.pravatar.cc/150?img=7',
+    views: 156000,
+    likes: 9800,
+    uploadedAt: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000),
+    duration: '30:00',
+    category: 'Learning',
+    description: 'Start your Spanish learning journey with this comprehensive 30-day program. Day 1 covers basic greetings and essential phrases.'
+  },
+  {
+    id: '8',
+    title: 'Fashion Trends Spring/Summer 2024',
+    thumbnail: 'https://picsum.photos/seed/video8/800/450',
+    channelName: 'StyleGuide',
+    channelAvatar: 'https://i.pravatar.cc/150?img=8',
+    views: 89000,
+    likes: 6700,
+    uploadedAt: new Date(Date.now() - 6 * 60 * 60 * 1000),
+    duration: '11:45',
+    category: 'Fashion',
+    description: 'Discover the hottest fashion trends for Spring/Summer 2024. From runway to street style, we cover all the must-have pieces for the season.'
+  }
+];
