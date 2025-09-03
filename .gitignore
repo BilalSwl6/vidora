@@ -1,0 +1,97 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+bun.lock
+
+# Expo
+.expo/
+.expo-shared/
+.expo/*
+web-build/
+dist/
+
+# React Native
+ios/Pods/
+ios/build/
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+*.jks
+
+# Build artifacts
+*.iml
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.so
+*.lock
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Metro / Babel / TypeScript
+.cache/
+babel.config.js
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+.nfs*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Env files
+.env
+.env.production
+
+#python files
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.coverage
+*.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+ENV/
+env/
+
+
+.wakatime-project
+monorepo.code-workspace

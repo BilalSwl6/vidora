@@ -79,7 +79,7 @@ export const [AuthProvider, useAuth] = createContextHook(() => {
         router.replace('/login');
       }
     } catch (error) {
-      console.error('Auth check error:', error);
+      // console.error('Auth check error:', error);
       showToast('Authentication error. Please login again.');
       await logout();
     } finally {
@@ -103,11 +103,11 @@ export const [AuthProvider, useAuth] = createContextHook(() => {
       });
       setUser(userRes.data);
       await AsyncStorage.setItem('user', JSON.stringify(userRes.data));
-      console.log('Login saved:', {
-        access_token,
-        refresh_token,
-        user: userRes.data
-      });
+      // console.log('Login saved:', {
+      //   access_token,
+      //   refresh_token,
+      //   user: userRes.data
+      // });
       router.replace('/');
     } catch (error) {
       console.error('Login error:', error);
